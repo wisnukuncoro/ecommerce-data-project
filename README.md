@@ -79,6 +79,10 @@ All in the `dwh` schema, built on top of `fact_sales` (`sql/05_reporting_views.s
 | `dwh.vw_customer_performance` | per customer | number of orders, total spending |
 | `dwh.vw_monthly_sales` | per year/month | total orders, total revenue |
 
+Reporting View Previews
+
+<table> <tr> <td align="center"> <img src="img/image.png" width="500"> <br> <b>Sales Summary</b> </td> <td align="center"> <img src="img/image-1.png" width="500"> <br> <b>Product Performance</b> </td> </tr> <tr> <td align="center"> <img src="img/image-2.png" width="500"> <br> <b>Customer Performance</b> </td> <td align="center"> <img src="img/image-3.png" width="500"> <br> <b>Monthly Sales</b> </td> </tr> </table>
+
 ## 6. How to Run
 
 Requires PostgreSQL (tested on 14) and Python 3.10+.
